@@ -5,3 +5,5 @@ Bem-vindo(a) ao repositório do meu Portfólio Pessoal! Este projeto está sendo
 📌 Sobre o Projeto
 
 Este projeto tem como objetivo principal apresentar meus trabalhos, habilidades, histórico acadêmico e informações de contato em um site interativo e responsivo.
+
+Linkedin: https://www.linkedin.com/in/joão-pedro-monteiro-ferreira-91a711257?utm_source=share_via&utm_content=profile&utm_medium=member_android
