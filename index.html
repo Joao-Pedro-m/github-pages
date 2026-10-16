@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Pedro Monteiro Ferreira | Portfólio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f3ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              900: '#0f172a',
+              950: '#020617'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-brand-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Header / Navbar -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-brand-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight text-white hover:text-brand-500 transition">
+        João<span class="text-brand-500">.dev</span>
+      </a>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#sobre" class="hover:text-brand-500 transition">Sobre</a>
+        <a href="#experiencia" class="hover:text-brand-500 transition">Experiência</a>
+        <a href="#formacao" class="hover:text-brand-500 transition">Formação</a>
+        <a href="#skills" class="hover:text-brand-500 transition">Skills</a>
+        <a href="#projetos" class="hover:text-brand-500 transition">Projetos</a>
+      </nav>
+      <a href="mailto:joaopedromonteiroferreira@gmail.com" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold text-white bg-brand-600 hover:bg-brand-500 rounded-lg transition shadow-lg shadow-brand-600/20">
+        <i class="fa-regular font-envelope"></i> Contato
+      </a>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-16 space-y-24">
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20">
+      <div class="max-w-3xl space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-500 bg-brand-500/10 border border-brand-500/20 rounded-full">
+          <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span> Assessor de TI no Banco do Brasil
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+          João Pedro <br />
+          <span class="bg-gradient-to-r from-brand-500 to-indigo-400 bg-clip-text text-transparent">Monteiro Ferreira</span>
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-400 font-light leading-relaxed">
+          Desenvolvedor Full-Stack & Alta Plataforma. Conectando a robustez dos ecossistemas legados de grande porte às soluções ágeis da web e análise de dados.
+        </p>
+        
+        <!-- Redes / Links -->
+        <div class="flex flex-wrap items-center gap-4 pt-4">
+          <a href="https://github.com/Joao-Pedro-m" target="_blank" rel="noopener noreferrer" class="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-300 hover:text-white hover:border-brand-500 transition">
+            <i class="fa-brands fa-github text-xl"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-monteiro-ferreira-91a711257/" target="_blank" rel="noopener noreferrer" class="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-300 hover:text-white hover:border-brand-500 transition">
+            <i class="fa-brands fa-linkedin text-xl"></i>
+          </a>
+          <a href="http://lattes.cnpq.br/4572994405469862" target="_blank" rel="noopener noreferrer" class="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-300 hover:text-white hover:border-brand-500 transition" title="Curriculo Lattes">
+            <i class="fa-solid fa-graduation-cap text-xl"></i>
+          </a>
+          <a href="mailto:joaopedromonteiroferreira@gmail.com" class="p-3 bg-slate-900 border border-slate-800 rounded-xl text-slate-300 hover:text-white hover:border-brand-500 transition">
+            <i class="fa-solid fa-envelope text-xl"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="p-8 bg-slate-900/50 border border-slate-800/80 rounded-2xl backdrop-blur-sm space-y-6">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-user text-brand-500"></i> Sobre Mim
+        </h2>
+        <div class="space-y-4 text-slate-300 leading-relaxed">
+          <p>
+            Aos 17 anos, fui aprovado no concurso público do Banco do Brasil, um marco que iniciou minha trajetória pautada em resiliência, alta performance e aprendizado contínuo. Hoje, aos 21 anos, atuo na Diretoria de Tecnologia (DITEC) do banco, encontrando o equilíbrio ideal entre o desenvolvimento em ecossistemas modernos (Full-Stack) e a sustentação de sistemas críticos corporativos.
+          </p>
+          <p>
+            Minha jornada é fortemente movida pela adaptabilidade. Ao me mudar de Rondônia para o Distrito Federal, mergulhei no universo de Alta Plataforma, aprendendo a operar arquiteturas legadas como COBOL e DB2, ao mesmo tempo em que as conecto a soluções ágeis de análise de dados com Python e SQL. Essa visão <em>end-to-end</em> me permite compreender desde o núcleo transacional de uma das maiores instituições financeiras da América Latina até a entrega de interfaces web modernas.
+          </p>
+          <p>
+            A disciplina é o motor da minha rotina. Atualmente, concilio a atuação no Banco do Brasil com uma dupla graduação: Licenciatura em Matemática na Universidade de Brasília (UnB) e Engenharia de Software no UniCEUB. Para gerenciar esse nível de esforço e produtividade com eficiência, desenvolvo também minhas próprias ferramentas, como o projeto <em>Kairos</em>, voltado para o monitoramento de tempo e foco acadêmico. Transito fluidamente entre o rigor exato e a engenharia de software para construir soluções com impacto real.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section id="experiencia" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+        <i class="fa-solid fa-briefcase text-brand-500"></i> Experiência Profissional
+      </h2>
+
+      <div class="relative border-l-2 border-slate-800 ml-4 pl-6 space-y-8">
+        <!-- BB -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-brand-500 ring-4 ring-brand-950"></div>
+          <div class="bg-slate-900/50 border border-slate-800 p-6 rounded-xl space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="text-lg font-bold text-white">Banco do Brasil (DITEC - Diretoria de Tecnologia)</h3>
+              <span class="text-xs text-slate-400 font-mono">Brasília, DF</span>
+            </div>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li>
+                <strong class="text-brand-500">Assessor 3 Júnior — Análise de Dados</strong> <span class="text-xs text-slate-400">(Atual)</span>
+                <p class="text-slate-400 mt-1">Atuação focada em extração, manipulação e análise de dados complexos utilizando Python, Jupyter e DB2. Desenvolvimento de rotinas analíticas para otimização de processos internos e suporte corporativo.</p>
+              </li>
+              <li>
+                <strong class="text-slate-200">Trainee em Alta Plataforma</strong> <span class="text-xs text-slate-400">(3 meses)</span>
+                <p class="text-slate-400 mt-1">Capacitação imersiva e atuação prática com COBOL e DB2 em Mainframes (HUs), modernizando sistemas críticos.</p>
+              </li>
+              <li>
+                <strong class="text-slate-200">Estágio Probatório</strong> <span class="text-xs text-slate-400">(3 meses)</span>
+                <p class="text-slate-400 mt-1">Imersão em cultura ágil, compliance, segurança da informação e onboarding corporativo.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- IFRO -->
+        <div class="relative group">
+          <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-700 ring-4 ring-brand-950"></div>
+          <div class="bg-slate-900/50 border border-slate-800 p-6 rounded-xl space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <h3 class="text-lg font-bold text-white">Instituto Federal de Rondônia (IFRO)</h3>
+              <span class="text-xs text-slate-400 font-mono">2021 - 2023</span>
+            </div>
+            <ul class="list-disc list-inside space-y-2 text-sm text-slate-300">
+              <li><strong>Pesquisador de Inovação e Tecnologia:</strong> Atuação no projeto GOTEC (Sistema de avaliação empresarial com PHP/Laravel) e GP Mecatrônica (Repositório de projetos com Python/Django).</li>
+              <li><strong>Coordenador do Clube de Xadrez</strong> (2022 - 2023).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formação Acadêmica & Conquistas -->
+    <section id="formacao" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Formação -->
+      <div class="space-y-6">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-graduation-cap text-brand-500"></i> Formação Acadêmica
+        </h2>
+        <div class="space-y-4">
+          <div class="p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+            <h3 class="font-bold text-white">Licenciatura em Matemática</h3>
+            <p class="text-sm text-slate-400">Universidade de Brasília (UnB)</p>
+          </div>
+          <div class="p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+            <h3 class="font-bold text-white">Engenharia de Software</h3>
+            <p class="text-sm text-slate-400">UniCEUB</p>
+          </div>
+          <div class="p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+            <h3 class="font-bold text-white">Ciência da Computação</h3>
+            <p class="text-sm text-slate-400">Universidade Federal de Rondônia (UNIR) — <span class="text-xs text-slate-500">3 períodos cursados (Transferido)</span></p>
+          </div>
+          <div class="p-4 bg-slate-900/50 border border-slate-800 rounded-xl">
+            <h3 class="font-bold text-white">Técnico em Informática Integrado</h3>
+            <p class="text-sm text-slate-400">Instituto Federal de Rondônia (IFRO) — <span class="text-xs text-slate-500">2021 - 2024</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conquistas & Idiomas -->
+      <div class="space-y-6">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-trophy text-brand-500"></i> Conquistas & Idiomas
+        </h2>
+        <div class="space-y-4">
+          <div class="p-4 bg-slate-900/50 border border-slate-800 rounded-xl flex items-start gap-4">
+            <i class="fa-solid fa-award text-yellow-500 text-2xl mt-1"></i>
+            <div>
+              <h3 class="font-bold text-white">OBI 2022</h3>
+              <p class="text-sm text-slate-400">Classificado no Top 3.3% nacional na Olimpíada Brasileira de Informática.</p>
+            </div>
+          </div>
+          <div class="p-4 bg-slate-900/50 border border-slate-800 rounded-xl space-y-2">
+            <h3 class="font-bold text-white">Idiomas</h3>
+            <ul class="text-sm text-slate-300 space-y-1">
+              <li><strong>Inglês:</strong> C2 Proficiente (Certificação EF SET)</li>
+              <li><strong>Espanhol & Russo:</strong> Nível Básico</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Stack Tecnológica -->
+    <section id="skills" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+        <i class="fa-solid fa-code text-brand-500"></i> Stack Tecnológica
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Linguagens -->
+        <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-xl space-y-4">
+          <h3 class="font-bold text-lg text-white border-b border-slate-800 pb-2">Linguagens & Alta Plataforma</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Python</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Java</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">C++</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">JavaScript</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">TypeScript</span>
+            <span class="px-3 py-1 bg-brand-600/30 text-brand-400 border border-brand-500/30 text-xs font-semibold rounded-md">COBOL</span>
+          </div>
+        </div>
+
+        <!-- Web & Dados -->
+        <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-xl space-y-4">
+          <h3 class="font-bold text-lg text-white border-b border-slate-800 pb-2">Web & Dados</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">React</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Next.js</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Node.js</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Django</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Jupyter</span>
+          </div>
+        </div>
+
+        <!-- Banco de Dados & Infra -->
+        <div class="p-6 bg-slate-900/50 border border-slate-800 rounded-xl space-y-4">
+          <h3 class="font-bold text-lg text-white border-b border-slate-800 pb-2">Bancos de Dados & Infra</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-brand-600/30 text-brand-400 border border-brand-500/30 text-xs font-semibold rounded-md">IBM DB2</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">PostgreSQL</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">MySQL</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Docker</span>
+            <span class="px-3 py-1 bg-slate-800 text-slate-200 text-xs font-semibold rounded-md">Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos Destacados -->
+    <section id="projetos" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+        <i class="fa-solid fa-folder-open text-brand-500"></i> Projetos Destacados
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Projeto 1 -->
+        <a href="https://github.com/Joao-Pedro-m/to-do-list" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-brand-500/50 transition">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-lg text-white group-hover:text-brand-500 transition">To-Do List</h3>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-500 group-hover:text-brand-500"></i>
+          </div>
+          <p class="text-sm text-slate-400 mt-2">Aplicação simples e eficiente para gerenciamento de tarefas do dia a dia.</p>
+        </a>
+
+        <!-- Projeto 2 -->
+        <a href="https://github.com/Joao-Pedro-m/Game_of_life_in_C" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-brand-500/50 transition">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-lg text-white group-hover:text-brand-500 transition">Game of Life em C</h3>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-500 group-hover:text-brand-500"></i>
+          </div>
+          <p class="text-sm text-slate-400 mt-2">Implementação em C do famoso autômato celular idealizado por John Conway.</p>
+        </a>
+
+        <!-- Projeto 3 -->
+        <a href="https://github.com/Joao-Pedro-m/Projeto_integrador_2023" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-brand-500/50 transition">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-lg text-white group-hover:text-brand-500 transition">Projeto Integrador 2023</h3>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-500 group-hover:text-brand-500"></i>
+          </div>
+          <p class="text-sm text-slate-400 mt-2">Projeto acadêmico integrando múltiplos conceitos de desenvolvimento e engenharia.</p>
+        </a>
+
+        <!-- Projeto 4 -->
+        <a href="https://github.com/Joao-Pedro-m/exhaustive-method" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-900/50 border border-slate-800 rounded-xl hover:border-brand-500/50 transition">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-lg text-white group-hover:text-brand-500 transition">Exhaustive Method</h3>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-500 group-hover:text-brand-500"></i>
+          </div>
+          <p class="text-sm text-slate-400 mt-2">Implementações focadas em otimização matemática e algoritmos de busca exaustiva.</p>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 bg-brand-950 py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center text-sm text-slate-500">
+      <p>© João Pedro Monteiro Ferreira. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
