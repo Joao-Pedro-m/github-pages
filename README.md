@@ -9,3 +9,5 @@ Este projeto tem como objetivo principal apresentar meus trabalhos, habilidades,
 Linkedin: https://www.linkedin.com/in/joão-pedro-monteiro-ferreira-91a711257
 
 Github Pages: https://joao-pedro-m.github.io/github-pages/
+
+e-mail: joaopedromonteiroferreira@gmail.com
